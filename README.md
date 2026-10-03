@@ -1,8 +1,8 @@
 # Exercise - 7
 
-## Diagrama de clases
+## Diagrama Renderizado
 
-```text
+```mermaid
 classDiagram
     %% --- Jerarquía de Identidades ---
     class Identity {
@@ -98,9 +98,9 @@ classDiagram
     BankingService --> Processor : usa
 ```
 
-## Diagrama renderizado
+## Diagrama de clases
 
-```mermaid
+```text
 classDiagram
     %% --- Jerarquía de Identidades ---
     class Identity {
